@@ -1,0 +1,174 @@
+html{
+	background: url("../images/background.jpg") no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+	margin-top: 35%;
+	margin-left: 2%;
+	background-color: rgba(19, 19, 19, 0.5);
+	width: 29%;
+	float: left;
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+nav ul li{
+	display: block;
+	width: 90%;
+}
+
+nav li a{
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	padding-right: 30px;
+	padding-left: 30px;
+	transition: background-color,padding-left 5s;
+	text-decoration: none;
+}
+
+nav ul li:hover{
+	background-color: rgba(109, 151, 0, 0.5);
+	text-shadow: 2px 2px 4px black;
+	padding-left: 60px;
+	cursor: pointer;
+}
+
+nav li span{
+	font-size: 26px;
+}
+
+#socialMedia ul{
+	list-style: none;
+	position: fixed;
+	right: 0px;
+	top: 40px;
+}
+
+#socialMedia img{
+	opacity: .3;
+	width: 33px;
+	height: 33px;
+	transition: opacity .2s;
+}
+
+#socialMedia img:hover{
+	opacity: 1;
+}
+
+#homeContent{
+	width: 30%;
+	height: 20%;
+	background-color: rgba(0, 0, 1, 0.5); 
+}
+
+#homeContent h1{
+	font-size: 40px;
+	color: orange;
+	font-weight: italic;
+}
+
+#about{
+	width: 50%;
+	height: 462px;
+	background-color: rgba(109, 151, 0, 0.5);
+	margin-top: 15%;
+	margin-right: 10%;
+	float: right;
+	color: #FFFFFF;
+	z-index: 1;
+}
+
+#about h1,p{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+#portfolio{
+	width: 50%;
+	height: 462px;
+	background-color: rgba(109, 151, 0, 0.5);
+	margin-top: 15%;
+	margin-right: 10%;
+	float: right;
+	color: #FFFFFF;
+	z-index: 2;
+}
+
+#portfolio h1 i, #portfolio h1{
+	font-size: 60px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 65px;
+	text-align: center;
+}
+
+#headerSong{
+	float: right;
+	color: #FFFFFF;
+	margin-right: 53%;
+	margin-top: 5%;
+}
+
+#songContent ul{
+	margin-left: 35%;
+}
+
+#songContent li{
+	display: inline;
+}
+
+#songContent img{
+	width: 40%;
+	-webkit-filter: blur(2px);
+}
+
+#songContent img:hover{
+	-webkit-filter: blur(0px);
+}
+
+#headerImage{
+	float: right;
+	color: #FFFFFF;
+	margin-right: 52%;
+	margin-top: 5%;
+}
+
+#imageContent ul{
+	margin-left: 35%;
+}
+
+#imageContent li{
+	display: inline;
+}
+
+#imageContent img{
+	width: 45%;
+/*	-webkit-filter: blur(2px);
+*/
+}
+
+#imageContent ul:hover img{
+	-webkit-filter: blur(2px);
+}
+
+#imageContent ul:hover img:hover{
+	-webkit-filter: blur(0px);
+	width: 600px;
+	height: 400px;
+}
+
+/*#imageContent li:hover > img:hover{
+	opacity: 1;
+}*/
+
+#map iframe{
+	margin-top: 80%;
+	margin-left: 80%;
+}
+
