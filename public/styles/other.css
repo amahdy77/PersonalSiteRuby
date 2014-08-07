@@ -27,14 +27,13 @@ nav li a{
 	font-weight: bold;
 	padding-right: 30px;
 	padding-left: 30px;
-	transition: background-color,padding-left 5s;
+	transition: background-color 5s;
 	text-decoration: none;
 }
 
 nav ul li:hover{
 	background-color: rgba(109, 151, 0, 0.5);
 	text-shadow: 2px 2px 4px black;
-	padding-left: 60px;
 	cursor: pointer;
 }
 
